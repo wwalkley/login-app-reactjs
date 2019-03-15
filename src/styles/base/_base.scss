@@ -1,0 +1,32 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: $m-size;
+    background-color: #333745;     
+    padding: 0 $m-size;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 20px;
+}
+
+li {
+    padding: 5px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
